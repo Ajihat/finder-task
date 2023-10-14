@@ -1,7 +1,9 @@
+import { Container } from './components/Container/Container';
+
 import './global.css';
 
 function App() {
-  return <div>Roboto Font</div>;
+  return <Container>asdads</Container>;
 }
 
 export default App;
