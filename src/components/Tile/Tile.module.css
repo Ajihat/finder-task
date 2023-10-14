@@ -1,0 +1,33 @@
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e3e5e8;
+    border-radius: 16px;
+    height: 105px;
+    width: calc((100% - 100px) / 6);
+    text-decoration: none;
+}
+
+.img {
+    display: block;
+    width: 30px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0271e1;
+    margin-top: 5px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+@media (max-width: 960px) {
+    .tile {
+        width: calc((100% - 120px) / 4);
+    }
+}
