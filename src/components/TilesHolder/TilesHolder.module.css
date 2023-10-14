@@ -13,3 +13,10 @@
         row-gap: 20px;
     }
 }
+
+@media (max-width: 600px) {
+    .holder {
+        column-gap: 4%;
+        row-gap: 25px;
+    }
+}

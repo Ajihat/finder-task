@@ -4,6 +4,7 @@ import { Container } from './components/Container/Container';
 import { Header } from './components/Header/Header';
 import { TilesHolder } from './components/TilesHolder/TilesHolder';
 import { Tile } from './components/Tile/Tile';
+import { Button } from './components/Button/Button';
 
 import { useCalcVisibleTiles } from './customHooks/useCalcVisibleTiles';
 
@@ -32,6 +33,7 @@ function App() {
         {areTilesExpanded &&
           expandingTiles.map(tile => <Tile key={tile.id} href={tile.href} icon={tile.icon} text={tile.text} />)}
       </TilesHolder>
+      <Button areTilesExpanded={areTilesExpanded} setAreTilesExpanded={setAreTilesExpanded} />
     </Container>
   );
 }
