@@ -1,9 +1,13 @@
 import { Container } from './components/Container/Container';
 import { Header } from './components/Header/Header';
 
+import { useCalcVisibleTiles } from './customHooks/useCalcVisibleTiles';
+
 import './global.css';
 
 function App() {
+  const visibleTilesNumber = useCalcVisibleTiles();
+  console.log(visibleTilesNumber);
   return (
     <Container>
       <Header

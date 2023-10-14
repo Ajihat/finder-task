@@ -4,7 +4,7 @@ import { breakpoints } from '../data/breakpoints';
 
 const calcInitialVisibleTiles = () => {
   const windowWidth = window.innerWidth;
-  if (windowWidth > breakpoints.laptop) {
+  if (windowWidth > breakpoints.tablet) {
     return 6;
   } else if (windowWidth > breakpoints.mobile) {
     return 4;
@@ -18,10 +18,10 @@ export const useCalcVisibleTiles = () => {
 
   const calcVisibleTiles = () => {
     const windowWidth = window.innerWidth;
-    if (windowWidth > breakpoints.laptop) {
+    if (windowWidth > breakpoints.tablet) {
       setVisibleTilesNumber(6);
     }
-    if (windowWidth > breakpoints.mobile && windowWidth <= breakpoints.laptop) {
+    if (windowWidth > breakpoints.mobile && windowWidth <= breakpoints.tablet) {
       setVisibleTilesNumber(4);
     }
 
