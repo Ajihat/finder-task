@@ -19,7 +19,6 @@ function App() {
 
   const visibleTiles = tiles.slice(0, visibleTilesNumber);
   const expandingTiles = tiles.slice(visibleTilesNumber);
-  console.log(visibleTiles, expandingTiles);
   return (
     <Container>
       <Header
