@@ -1,10 +1,12 @@
 import { HeaderProps } from './Header.types';
 
+import styles from './Header.module.css';
+
 export const Header = ({ title, text }: HeaderProps) => {
   return (
     <div>
-      <h1>{title}</h1>
-      <p>{text}</p>
+      <h1 className={styles.title}>{title}</h1>
+      <p className={styles.text}>{text}</p>
     </div>
   );
 };

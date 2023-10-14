@@ -1,14 +1,25 @@
 .title {
-
+    font-size: 32px;
+    font-weight: 700;
+    color: #18304b;
+    margin-bottom: 8px;
 }
 
 .text {
-
+    font-size: 20px;
+    color: #6c7881;
+    font-weight: 400;
+    margin-bottom: 16px;
 }
 
 
 
-@media (max-width: 1024px) {
-   
+@media (max-width: 960px) {
+   .title {
+        font-size: 24px;
+   }
+   .text {
+    font-size: 18px;
+   }
 
   }
