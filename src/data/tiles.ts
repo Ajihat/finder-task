@@ -1,0 +1,148 @@
+import { AiFillHeart } from 'react-icons/ai';
+
+export const tiles = [
+  {
+    id: 1,
+    text: 'Credit Cards',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 2,
+    text: 'Home Loans',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 3,
+    text: 'Health Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 4,
+    text: 'Car Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 5,
+    text: 'High-Interest Savings',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 6,
+    text: 'Personal Loans',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 7,
+    text: 'Electricity & Gas',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 8,
+    text: 'Mobile Plans',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 9,
+    text: 'Broadband & NBN',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 10,
+    text: 'Super Funds',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 11,
+    text: 'Share Trading',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 12,
+    text: 'Life Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 13,
+    text: 'Home Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 14,
+    text: 'Travel Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 15,
+    text: 'Travel Deals',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 16,
+    text: 'Crypto',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 17,
+    text: 'Car Loans',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 18,
+    text: 'Pet Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 19,
+    text: 'Transaction Accounts',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 20,
+    text: 'Money Transfers',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 21,
+    text: 'Shopping Deals',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 22,
+    text: 'Streaming',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 23,
+    text: 'Business Insurance',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+  {
+    id: 24,
+    text: 'Short Term Loans',
+    href: 'https://www.finder.com.au/',
+    icon: AiFillHeart,
+  },
+];
