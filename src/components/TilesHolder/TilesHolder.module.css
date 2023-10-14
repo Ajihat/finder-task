@@ -1,0 +1,8 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
